@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApplicationLayeredArchitecture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52e41dbff187324e9712ac0ff2b1c2f4ed495ad5")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApplicationLayeredArchitecture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApplicationLayeredArchitecture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,12 @@ var connstring = builder.Configuration
 builder.Services.AddDbContext<Appdbcontext>
     (options => options.UseSqlite(connstring));
 builder.Services.AddScoped<IMovieService, MovieService>();
+builder.Services.AddScoped<IMoviesGenericService, MoviesGenericService>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
